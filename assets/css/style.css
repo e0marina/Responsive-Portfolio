@@ -134,61 +134,7 @@ h3, h2 {
   border: 1px solid #dddddd;
 }
 
-/* 960px Media Query here */
-@media screen and (max-width: 960px) {
 
-  
-  .container {
-    width: 90%;
-  }
-
-/* header */
-
-  #logo {
-    font-size: 125%;
-    width: 210px;
-    height: 77px;
-    line-height: 80px; 
-  }
-
-  nav {
-    font-size: 80%;
-  }
-
-  /*main*/
-
-  #main-container {
-    padding-top: 120px;
-  }
-
-  .main-section {
-    width: 66%;
-    height: 450px; 
-  }
-
-  h1 {
-    padding-bottom: 21px;
-    font-size: 125%;
-    line-height: 26px;
-    margin-bottom: 14px;
-  }
-/* why can't I get the image to resize? */
-  .auth-image {
-    width: 175px;
-    height: auto;
-
-  }
-
-  p {
-    font-size: 13px;
-    line-height: 1.8em;
-    margin-bottom: 14px;
-
-  }
-
- /*do I need to move the copyright up? */
-
-}
 
 /* portfolio page */
 
@@ -270,4 +216,114 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* 960px Media Query here */
+@media screen and (max-width: 960px) {
+
+  
+  .container {
+    width: 90%;
+  }
+
+/* header */
+
+  #logo {
+    font-size: 125%;
+    width: 210px;
+    height: 77px;
+    line-height: 80px; 
+  }
+
+  nav {
+    font-size: 80%;
+  }
+
+  /*main*/
+
+  #main-container {
+    padding-top: 120px;
+  }
+
+  .main-section {
+    width: 66%;
+    height: 450px; 
+  }
+
+  h1 {
+    padding-bottom: 21px;
+    font-size: 125%;
+    line-height: 26px;
+    margin-bottom: 14px;
+  }
+/* why can't I get the image to resize? */
+  .auth-image {
+    width: 175px;
+    height: auto;
+
+  }
+
+  p {
+    font-size: 13px;
+    line-height: 1.8em;
+    margin-bottom: 14px;
+
+  }
+
+ /*do I need to move the copyright up? */
+
+}
+
+/* 768px Media Query here */
+@media screen and (max-width: 768px) {
+
+  /* header */
+
+  #masthead {
+    height: 8%;
+     
+  }
+
+  .container {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  #logo {
+    font-size: 122%;
+    width: 180px;
+    height: 73px;
+    line-height: 66px;
+  }
+
+  nav {
+    font-size: 78%;
+    line-height: 20px;
+    font-weight: lighter;
+  }
+  
+
+  /* main */
+  .main-section {
+    width: 100%;
+    height: 380px;
+  }
+
+  #main-container {
+    padding-top: 98px;
+  }
+
+  
+  .auth-image {
+    width: 242px;
+    height: auto;
+    margin-bottom: 7px;
+  }
+
+  p {
+    font-size: 13.5px;
+    line-height: 1.9em;
+    margin-bottom: 13px;
+  }
+
 }
