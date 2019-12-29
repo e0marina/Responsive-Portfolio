@@ -327,3 +327,60 @@ input[type=submit] {
   }
 
 }
+
+/* 640px Media Query here */
+@media screen and (max-width: 640px) {
+
+   /* header */
+   .container {
+     width: 100%;
+     padding: 0px;
+     margin: 0px;
+   }
+   
+  #masthead {
+     width: 100%;
+     height: 13%;
+     min-height: 112.44px;
+
+  }
+
+
+   #logo {
+     width: 100%;
+     
+     
+     
+   }
+
+   nav {
+     width: 100%;
+     text-align: center;
+     margin-top: 9px;
+     
+   }
+
+
+ /* main */
+  #main-container {
+    padding-top: 130px;
+  }
+
+  .main-section {
+    width: 90%;
+    margin-left: 32px;
+    height: 520px;
+
+  }
+
+  .auth-image {
+    float: none;
+    width: 100%;
+    height: auto;
+    
+  }
+
+
+
+
+}
