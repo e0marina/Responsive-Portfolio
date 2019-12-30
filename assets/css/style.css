@@ -227,6 +227,10 @@ input[type=submit] {
   }
 
 /* header */
+  #masthead {
+    max-height: 73px;
+    min-height: 73px;
+  }
 
   #logo {
     font-size: 125%;
@@ -255,6 +259,11 @@ input[type=submit] {
     font-size: 125%;
     line-height: 26px;
     margin-bottom: 14px;
+  
+  }
+  /*portfolio specific code*/
+  .work {
+    
   }
 /* why can't I get the image to resize? */
   .auth-image {
@@ -281,7 +290,7 @@ input[type=submit] {
 
   #masthead {
     height: 11%;
-    min-height: 70.2px;
+    max-height: 73px;
      
   }
 
@@ -343,6 +352,7 @@ input[type=submit] {
      width: 100%;
      height: 13%;
      min-height: 112.44px;
+     position: static;
 
   }
 
@@ -364,13 +374,13 @@ input[type=submit] {
 
  /* main */
   #main-container {
-    padding-top: 130px;
+    padding-top: 32px;
   }
 
   .main-section {
     width: 90%;
-    margin-left: 32px;
-    height: 614px;
+    margin-left: 5%;
+    height: auto;
 
   }
 
