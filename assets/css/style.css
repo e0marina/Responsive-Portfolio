@@ -369,7 +369,7 @@ input[type=submit] {
   .main-section {
     width: 90%;
     margin-left: 32px;
-    height: 520px;
+    height: 614px;
 
   }
 
@@ -379,6 +379,9 @@ input[type=submit] {
     height: auto;
     
   }
+
+ /*footer* -blargh...how do I get the Copyright centered */
+
 
 
 
