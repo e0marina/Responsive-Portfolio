@@ -280,7 +280,8 @@ input[type=submit] {
   /* header */
 
   #masthead {
-    height: 8%;
+    height: 11%;
+    min-height: 70.2px;
      
   }
 
