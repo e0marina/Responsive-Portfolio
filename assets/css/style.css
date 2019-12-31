@@ -328,14 +328,18 @@ input[type=submit] {
   /* main */
   .main-section {
     width: 100%;
-    height: 380px;
+    
   }
 
   #main-container {
     padding-top: 0%;
   }
 
-  
+  /*portfolio*/
+
+  .work {
+    width: 30%;
+  }
   
   .auth-image {
     width: 242px;
@@ -358,7 +362,7 @@ input[type=submit] {
    .container {
      width: 100%;
      padding: 0px;
-     margin: 0px;
+     /*margin: 0px;*/
    }
    
   #masthead {
@@ -366,15 +370,13 @@ input[type=submit] {
      height: 13%;
      min-height: 112.44px;
      position: static;
+     margin: 0;
 
   }
 
-
    #logo {
      width: 100%;
-     
-     
-     
+       
    }
 
    nav {
@@ -402,6 +404,13 @@ input[type=submit] {
     width: 100%;
     height: auto;
     
+  }
+
+  /* portfolio */
+
+  .work {
+    width: 100%;
+    margin-bottom: 2%;
   }
 
  /*footer* -blargh...how do I get the Copyright centered */
