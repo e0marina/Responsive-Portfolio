@@ -218,25 +218,22 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* 960px Media Query here */
-@media screen and (max-width: 960px) {
+/* 980px Media Query here */
+@media screen and (max-width: 980px) {
 
-  
   .container {
-    width: 90%;
+    max-width: 780px;
   }
 
 /* header */
   #masthead {
-    max-height: 73px;
-    min-height: 73px;
+   position: relative;
   }
 
   #logo {
-    font-size: 125%;
-    width: 210px;
-    height: 77px;
-    line-height: 80px; 
+    font-size: 150%;
+    width: 30%;
+   
   }
 
   nav {
@@ -246,7 +243,7 @@ input[type=submit] {
   /*main*/
 
   #main-container {
-    padding-top: 120px;
+    padding-top: 0;
   }
 
   .main-section {
@@ -261,11 +258,19 @@ input[type=submit] {
     margin-bottom: 14px;
   
   }
-  /*portfolio specific code*/
+  
+  footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+
+  /*portfolio*/
   .work {
     
   }
-/* why can't I get the image to resize? */
+  /*end portfolio*/
+
   .auth-image {
     width: 175px;
     height: auto;
