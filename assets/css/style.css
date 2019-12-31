@@ -223,6 +223,7 @@ input[type=submit] {
 
   .container {
     max-width: 780px;
+    
   }
 
 /* header */
@@ -248,7 +249,8 @@ input[type=submit] {
 
   .main-section {
     width: 66%;
-    height: 450px; 
+    display: inline-block;
+    
   }
 
   h1 {
@@ -267,9 +269,14 @@ input[type=submit] {
 
   /*portfolio*/
   .work {
+    width: 45%;
     
   }
-  /*end portfolio*/
+ 
+  .work h3 {
+    padding: 1%;
+    font-size: 80%;
+  }
 
   .auth-image {
     width: 175px;
