@@ -325,9 +325,10 @@ input[type=submit] {
   }
 
   #main-container {
-    padding-top: 98px;
+    padding-top: 0%;
   }
 
+  
   
   .auth-image {
     width: 242px;
