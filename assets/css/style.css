@@ -110,7 +110,8 @@ footer {
   height: 50px;
 }
 
-h3, h2 {
+h3,
+h2 {
   padding-bottom: 20px;
   margin-bottom: 15px;
   line-height: 22px;
@@ -133,8 +134,6 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
-
-
 
 /* portfolio page */
 
@@ -189,15 +188,15 @@ h3, h2 {
 }
 
 label,
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
+input[type="text"],
+input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
@@ -209,7 +208,7 @@ textarea {
   height: 200px;
 }
 
-input[type=submit] {
+input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
   color: #ffffff;
@@ -220,21 +219,18 @@ input[type=submit] {
 
 /* 980px Media Query here */
 @media screen and (max-width: 980px) {
-
   .container {
     max-width: 780px;
-    
   }
 
-/* header */
+  /* header */
   #masthead {
-   position: relative;
+    position: relative;
   }
 
   #logo {
     font-size: 150%;
     width: 30%;
-   
   }
 
   nav {
@@ -250,7 +246,6 @@ input[type=submit] {
   .main-section {
     width: 66%;
     display: inline-block;
-    
   }
 
   h1 {
@@ -258,9 +253,8 @@ input[type=submit] {
     font-size: 125%;
     line-height: 26px;
     margin-bottom: 14px;
-  
   }
-  
+
   footer {
     position: fixed;
     bottom: 0%;
@@ -270,9 +264,8 @@ input[type=submit] {
   /*portfolio*/
   .work {
     width: 45%;
-    
   }
- 
+
   .work h3 {
     padding: 1%;
     font-size: 80%;
@@ -281,29 +274,22 @@ input[type=submit] {
   .auth-image {
     width: 175px;
     height: auto;
-
   }
 
   p {
     font-size: 13px;
     line-height: 1.8em;
     margin-bottom: 14px;
-
   }
-
- /*do I need to move the copyright up? */
-
 }
 
 /* 768px Media Query here */
 @media screen and (max-width: 768px) {
-
   /* header */
 
   #masthead {
     height: 11%;
     max-height: 73px;
-     
   }
 
   .container {
@@ -323,12 +309,10 @@ input[type=submit] {
     line-height: 20px;
     font-weight: lighter;
   }
-  
 
   /* main */
   .main-section {
     width: 100%;
-    
   }
 
   #main-container {
@@ -340,7 +324,7 @@ input[type=submit] {
   .work {
     width: 30%;
   }
-  
+
   .auth-image {
     width: 242px;
     height: auto;
@@ -352,42 +336,35 @@ input[type=submit] {
     line-height: 1.9em;
     margin-bottom: 13px;
   }
-
 }
 
 /* 640px Media Query here */
 @media screen and (max-width: 640px) {
-
-   /* header */
-   .container {
-     width: 100%;
-     padding: 0px;
-     /*margin: 0px;*/
-   }
-   
-  #masthead {
-     width: 100%;
-     height: 13%;
-     min-height: 112.44px;
-     position: static;
-     margin: 0;
-
+  /* header */
+  .container {
+    width: 100%;
+    padding: 0px;
   }
 
-   #logo {
-     width: 100%;
-       
-   }
+  #masthead {
+    width: 100%;
+    height: 13%;
+    min-height: 112.44px;
+    position: static;
+    margin: 0;
+  }
 
-   nav {
-     width: 100%;
-     text-align: center;
-     margin-top: 9px;
-     
-   }
+  #logo {
+    width: 100%;
+  }
 
+  nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+  }
 
- /* main */
+  /* main */
   #main-container {
     padding-top: 32px;
   }
@@ -396,14 +373,12 @@ input[type=submit] {
     width: 90%;
     margin-left: 5%;
     height: auto;
-
   }
 
   .auth-image {
     float: none;
     width: 100%;
     height: auto;
-    
   }
 
   /* portfolio */
@@ -412,11 +387,4 @@ input[type=submit] {
     width: 100%;
     margin-bottom: 2%;
   }
-
- /*footer* -blargh...how do I get the Copyright centered */
-
-
-
-
-
 }
