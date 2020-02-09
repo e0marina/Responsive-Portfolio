@@ -50,6 +50,12 @@ h3 {
   font-size: 22px;
 }
 
+/* about  */
+
+#pLink {
+  text-decoration: none;
+}
+
 /* header */
 
 #masthead {
